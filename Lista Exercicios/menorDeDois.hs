@@ -1,0 +1,1 @@
+menorDeDois x y = minimum[x,y]
