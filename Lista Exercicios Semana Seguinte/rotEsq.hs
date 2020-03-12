@@ -1,0 +1,1 @@
+rotEsq n lista = drop ( n `mod` length lista) lista ++ take ( n `mod` length lista) lista

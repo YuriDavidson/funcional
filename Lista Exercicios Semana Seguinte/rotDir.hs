@@ -1,0 +1,1 @@
+rotDir n lista = reverse (take ( n `mod` length lista) (reverse lista)) ++ reverse (drop ( n `mod` length lista) (reverse lista ))
