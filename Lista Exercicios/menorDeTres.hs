@@ -1,1 +1,3 @@
-menorDeTres x y z = minimum[x,y,z]
+minDetres x y z | x < y && x < z = x
+		| y < x && y < z = y
+		| otherwise = z
