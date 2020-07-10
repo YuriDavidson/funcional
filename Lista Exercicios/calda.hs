@@ -1,2 +1,2 @@
-x =[]
-calda x = last x 
+calda :: [t] -> [t]
+calda (_:xs) = xs
